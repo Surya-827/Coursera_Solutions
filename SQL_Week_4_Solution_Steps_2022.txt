@@ -1,0 +1,97 @@
+
+// Data Insertion [DML]   - Step 1
+
+insert into User(name)values('Nikola');
+insert into User(name)values('Beau');
+insert into User(name)values('Cooper');
+insert into User(name)values('Isa');
+insert into User(name)values('Rhian');
+insert into User(name)values('Meshach');
+insert into User(name)values('Lilya');
+insert into User(name)values('Renee');
+insert into User(name)values('Ruslan');
+insert into User(name)values('Yoolgeun');
+insert into User(name)values('Ella');
+insert into User(name)values('Adil');
+insert into User(name)values('Grzegorz');
+insert into User(name)values('Kier');
+insert into User(name)values('Torin');
+
+
+// Data Insertion [ DML ]  - Step 2
+
+insert into Course (title)values('si106');
+insert into Course (title)values('si110');
+insert into Course (title)values('si206');
+
+// Data Insertion [ DML ]  - Step 3
+
+insert into Members(user_id, course_id,role)values(1,1,1);
+insert into Members(user_id, course_id,role)values(2,1,0);
+insert into Members(user_id, course_id,role)values(3,1,0);
+insert into Members(user_id, course_id,role)values(4,1,0);
+insert into Members(user_id, course_id,role)values(5,1,0);
+insert into Members(user_id, course_id,role)values(6,2,1);
+insert into Members(user_id, course_id,role)values(7,2,0);
+insert into Members(user_id, course_id,role)values(8,2,0);
+insert into Members(user_id, course_id,role)values(9,2,0);
+insert into Members(user_id, course_id,role)values(10,2,0);
+insert into Members(user_id, course_id,role)values(11,3,1);
+insert into Members(user_id, course_id,role)values(12,3,0);
+insert into Members(user_id, course_id,role)values(13,3,0);
+insert into Members(user_id, course_id,role)values(14,3,0);
+insert into Members(user_id, course_id,role)values(15,3,0);
+
+
+
+// OUTPUT - EXPORT 
+
+[
+{"type":"header","version":"5.3.0-dev","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"roster"},
+{"type":"table","name":"Course","database":"roster","data":
+[
+{"course_id":"1","title":"si106"},
+{"course_id":"2","title":"si110"},
+{"course_id":"3","title":"si206"}
+]
+}
+,{"type":"table","name":"Member","database":"roster","data":
+[
+{"user_id":"1","course_id":"1","role":"1"},
+{"user_id":"2","course_id":"1","role":"0"},
+{"user_id":"3","course_id":"1","role":"0"},
+{"user_id":"4","course_id":"1","role":"0"},
+{"user_id":"5","course_id":"1","role":"0"},
+{"user_id":"6","course_id":"2","role":"1"},
+{"user_id":"7","course_id":"2","role":"0"},
+{"user_id":"8","course_id":"2","role":"0"},
+{"user_id":"9","course_id":"2","role":"0"},
+{"user_id":"10","course_id":"2","role":"0"},
+{"user_id":"11","course_id":"3","role":"1"},
+{"user_id":"12","course_id":"3","role":"0"},
+{"user_id":"13","course_id":"3","role":"0"},
+{"user_id":"14","course_id":"3","role":"0"},
+{"user_id":"15","course_id":"3","role":"0"}
+]
+}
+,{"type":"table","name":"User","database":"roster","data":
+[
+{"user_id":"12","name":"Adil"},
+{"user_id":"2","name":"Beau"},
+{"user_id":"3","name":"Cooper"},
+{"user_id":"11","name":"Ella"},
+{"user_id":"13","name":"Grzegorz"},
+{"user_id":"4","name":"Isa"},
+{"user_id":"14","name":"Kier"},
+{"user_id":"7","name":"Lilya"},
+{"user_id":"6","name":"Meshach"},
+{"user_id":"1","name":"Nikola"},
+{"user_id":"8","name":"Renee"},
+{"user_id":"5","name":"Rhian"},
+{"user_id":"9","name":"Ruslan"},
+{"user_id":"15","name":"Torin"},
+{"user_id":"10","name":"Yoolgeun"}
+]
+}
+]
