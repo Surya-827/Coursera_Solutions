@@ -4,7 +4,7 @@ All Corresponding Courses Solutions as per week modules is leveraged in its resp
 ## Hacker Rank - `SQL`
 - [SQL Basic Skill Course Solutions](https://github.com/Surya-827/Coursera_Solutions/tree/master/HackerRank-SQL-Basic-Skill-Certificate) For Skill Verification [Click Here](https://www.hackerrank.com/skills-verification/sql_basic)
 - [SQL Intermediate Skill Course Solutions](https://github.com/Surya-827/Coursera_Solutions/tree/master/HackerRank-SQL-Intermediate-Skill-Certificate) For Skill Verification [Click Here](https://www.hackerrank.com/skills-verification/sql_intermediate)
-- [SQL Advanced Skill Course Solutions](https://github.com/Surya-827/Coursera_Solutions/tree/master/HackerRank-SQL-Basic-Skill-Certificate) For Skill Verification [Click Here](https://www.hackerrank.com/skills-verification/sql_advanced)
+- [SQL Advanced Skill Course Solutions](https://github.com/Surya-827/Coursera_Solutions/tree/master/HackerRank-SQL-Advanced-Skill-Certificate) For Skill Verification [Click Here](https://www.hackerrank.com/skills-verification/sql_advanced)
 
 ## Coursera - `Introduction to SQL`
 - [Intro SQL Solutions](https://github.com/Surya-827/Coursera_Solutions/tree/master/Coursera-Introduction-to-SQL-assignment-master)
