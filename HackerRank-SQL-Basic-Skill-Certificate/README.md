@@ -7,7 +7,7 @@ Certificate can be viewed [here](https://www.hackerrank.com/certificates/1251a14
 
 2 Questions are asked, as of now 2 questions will be asked from these questions, provided the solution also:
 ## Programs / Questions
-- [Student Analysis]
+- [Student Analysis](https://github.com/Surya-827/Coursera_Solutions/blob/master/HackerRank-SQL-Basic-Skill-Certificate/student.analysis.sql)
 - [Country Codes](https://github.com/Surya-827/Coursera_Solutions/blob/master/HackerRank-SQL-Basic-Skill-Certificate/country-codes.sql)
 - [Student Advisor](https://github.com/Surya-827/Coursera_Solutions/blob/master/HackerRank-SQL-Basic-Skill-Certificate/student-advisor.sql)
 - [Profitable Stocks](https://github.com/Surya-827/Coursera_Solutions/blob/master/HackerRank-SQL-Basic-Skill-Certificate/profitable-stocks.sql)
